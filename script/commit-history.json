@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Israel Antezana Rojas",
+    "commit": {
+      "date": "2025-11-08T04:16:49.000Z",
+      "message": "feat: birthday service",
+      "url": "https://github.com/UCB-IngSoftware/birthday/commit/HEAD"
+    },
+    "stats": {
+      "total": 242,
+      "additions": 242,
+      "deletions": 0,
+      "date": "2025-11-08"
+    },
+    "coverage": 91.89,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
