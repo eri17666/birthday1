@@ -36,9 +36,63 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "085d459813525feda9e3c79ef3342f17507b4ae1",
     "commitName": "refactor: encapsular acceso a datos en FileEmployeeRepository",
     "commitTimestamp": 1763007998189,
     "testId": 2
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 3,
+    "numTotalTests": 9,
+    "timestamp": 1763008245563,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1763008393415,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 3,
+    "numTotalTests": 9,
+    "timestamp": 1763008453033,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 2,
+    "numTotalTests": 9,
+    "timestamp": 1763008615015,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1763008632826,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1763008655946,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: inyectar FileEmployeeRepository en BirthdayService para reducir acoplamiento",
+    "commitTimestamp": 1763009379209,
+    "testId": 3
   }
 ]

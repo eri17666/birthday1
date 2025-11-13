@@ -1,6 +1,7 @@
 import { OurDate } from "./OurDate";
 import { InMemoryTransport } from "./InMemoryTransport";
 import { BirthdayService } from "./BirthdayService";
+import { FileEmployeeRepository } from "./FileEmployeeRepository";
 
 describe("Acceptance", () => {
   const SMTP_PORT = 25;
@@ -8,16 +9,17 @@ describe("Acceptance", () => {
   const FILENAME = "employee_data.txt";
   let birthdayService;
   let transport; // = new InMemoryTransport();
+  let repository;
 
   beforeEach(() => {
     transport = new InMemoryTransport();
-    birthdayService = new BirthdayService();
+    repository = new FileEmployeeRepository(FILENAME);
+    birthdayService = new BirthdayService(repository);
   });
 
   it("base scenario", () => {
     birthdayService.sendGreetings(
       new OurDate("2008/10/08"),
-      "employee_data.txt",
       SMTP_URL,
       SMTP_PORT,
       transport
@@ -35,7 +37,6 @@ describe("Acceptance", () => {
   it("will not send emails when nobodys birthday", () => {
     birthdayService.sendGreetings(
       new OurDate("2008/01/01"),
-      "employee_data.txt",
       SMTP_URL,
       SMTP_PORT,
       transport
@@ -47,7 +48,6 @@ describe("Acceptance", () => {
   it("uses correct transport", () => {
     birthdayService.sendGreetings(
       new OurDate("2008/10/08"),
-      "employee_data.txt",
       SMTP_URL,
       SMTP_PORT,
       transport

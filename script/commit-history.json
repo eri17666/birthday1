@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "085d459813525feda9e3c79ef3342f17507b4ae1",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-11-13T04:26:36.000Z",
       "message": "refactor: encapsular acceso a datos en FileEmployeeRepository",
-      "url": "https://github.com/eri17666/birthday1/commit/HEAD"
+      "url": "https://github.com/eri17666/birthday1/commit/085d459813525feda9e3c79ef3342f17507b4ae1"
     },
     "stats": {
       "total": 37,
@@ -52,6 +52,25 @@
       "date": "2025-11-13"
     },
     "coverage": 91.89,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-11-13T04:49:37.000Z",
+      "message": "refactor: inyectar FileEmployeeRepository en BirthdayService para reducir acoplamiento",
+      "url": "https://github.com/eri17666/birthday1/commit/HEAD"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 9,
+      "deletions": 33,
+      "date": "2025-11-13"
+    },
+    "coverage": 92.68,
     "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
