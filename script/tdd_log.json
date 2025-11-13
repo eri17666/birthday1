@@ -22,9 +22,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f41cedab4818014d8d60ef1324d064a32f9c59f0",
     "commitName": "subir archivo base",
     "commitTimestamp": 1763007415095,
     "testId": 1
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1763007574902,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: encapsular acceso a datos en FileEmployeeRepository",
+    "commitTimestamp": 1763007998189,
+    "testId": 2
   }
 ]

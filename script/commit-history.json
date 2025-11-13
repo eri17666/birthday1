@@ -19,16 +19,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f41cedab4818014d8d60ef1324d064a32f9c59f0",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-11-13T04:16:52.000Z",
       "message": "subir archivo base",
-      "url": "https://github.com/eri17666/birthday1/commit/HEAD"
+      "url": "https://github.com/eri17666/birthday1/commit/f41cedab4818014d8d60ef1324d064a32f9c59f0"
     },
     "stats": {
       "total": 0,
       "additions": 0,
+      "deletions": 0,
+      "date": "2025-11-13"
+    },
+    "coverage": 91.89,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-11-13T04:26:36.000Z",
+      "message": "refactor: encapsular acceso a datos en FileEmployeeRepository",
+      "url": "https://github.com/eri17666/birthday1/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 37,
       "deletions": 0,
       "date": "2025-11-13"
     },
