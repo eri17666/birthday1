@@ -1,17 +1,36 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "c0278edc3373e4fddda180db01848299cd77639f",
     "author": "Israel Antezana Rojas",
     "commit": {
       "date": "2025-11-08T04:16:49.000Z",
       "message": "feat: birthday service",
-      "url": "https://github.com/UCB-IngSoftware/birthday/commit/HEAD"
+      "url": "https://github.com/UCB-IngSoftware/birthday/commit/c0278edc3373e4fddda180db01848299cd77639f"
     },
     "stats": {
       "total": 242,
       "additions": 242,
       "deletions": 0,
       "date": "2025-11-08"
+    },
+    "coverage": 91.89,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-11-13T04:16:52.000Z",
+      "message": "subir archivo base",
+      "url": "https://github.com/eri17666/birthday1/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
+      "date": "2025-11-13"
     },
     "coverage": 91.89,
     "test_count": 9,
